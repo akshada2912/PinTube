@@ -1,0 +1,104 @@
+body {
+    width: 200px;
+    height: 350px; /* Fixed height for the body */
+    background-color: rgb(251, 236, 246);
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    overflow: hidden;
+    align-items: center; /* Center horizontally */
+    overflow: scroll;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .center {
+    /*display:flex;*/
+    flex-direction: column;
+    height: 350px;
+    align-items: center; /* Center horizontally */
+    overflow-y: scroll;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    align-items: center;
+  }
+  
+  .article-card {
+    width: 160px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top:5px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 12px;
+
+  }
+  
+  .article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .article-card .content {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 30px 20px 20px 20px;
+    height: auto;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+    border-radius: 12px;
+  }
+ 
+  /* .article-card .title {
+    margin: 0;
+  }
+  
+  
+  .article-card .title {
+    font-size: 20px;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  } */
+  
+  .article-card .title {
+    font-size: 20px;
+    font-family: 'Gambetta', serif;
+    transition: 900ms ease;
+    font-variation-settings: "wght" 311;
+    color: rgb(255, 255, 255);
+    outline: none;
+  }
+  
+  .article-card .title:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 2px;
+  }
